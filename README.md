@@ -11,3 +11,4 @@ ESB Connector Service.
 
 * Requires Angular 2
 * Ionic Storage Service
+* run npm install to get all dependancies
