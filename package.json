@@ -1,0 +1,32 @@
+{
+  "name": "esbservice",
+  "version": "0.0.1",
+  "description": "ESB Connector Smart Component  Integration",
+  "main": "index.js",
+  "scripts": {
+    "prepublish": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@angular/http": "~2.4.3",
+    "@angular/common": "~2.4.3",
+    "@angular/core": "~2.4.3",
+    "@ionic/storage": "1.1.6",
+    "rxjs": "^5.0.3",
+    "underscore": "^1.8.3",
+    "google-libphonenumber": "^2.0.10"
+  },
+  "devDependencies": {
+    "@types/underscore": "^1.7.36",
+    "@types/google-libphonenumber": "^7.4.10",
+    "typescript": "^2.1.6"
+  },
+  "typings":"./dist/index.d.ts",
+  "private": true,
+  "keywords": [
+    "ESB",
+    "Connector"
+  ],
+  "author": "MC + OR + TL + PH + PA",
+  "license": "ISC"
+}
